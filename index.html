@@ -15,6 +15,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 <body>
   <section id="title">
     <div class="container-fluid">
@@ -47,8 +48,8 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
           <img class="phone-img" src="images/iphone6.png" alt="iphone-mockup">
@@ -61,19 +62,26 @@
   <!-- Features -->
 
   <section id="features">
-    <i class="fa fa-car"></i>
-    <i class="fa fa-car" style="font-size:48px;"></i>
-    <i class="fa fa-car" style="font-size:60px;color:red;"></i>
-    <i class="fab fa-apple"></i>
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-check-circle fa-4x feature-icon"></i>
+        <h3 class="feature-h3">Easy to use.</h3>
+        <p  class="feature-p">So easy to use, even your dog could do it.</p>
+      </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-bullseye fa-4x feature-icon"></i>
+        <h3 class="feature-h3">Elite Clientele</h3>
+        <p class="feature-p">We have all the dogs, the greatest dogs.</p>
+      </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-heart fa-4x feature-icon"></i>
+        <h3 class="feature-h3">Guaranteed to work.</h3>
+        <p class="feature-p">Find the love of your dog's life or your money back.</p>
+      </div>
 
+    </div>
   </section>
 
 
@@ -149,6 +157,10 @@
   </section>
 
 
+  <i class="fa fa-car"></i>
+  <i class="fa fa-car" style="font-size:48px;"></i>
+  <i class="fa fa-car" style="font-size:60px;color:red;"></i>
+  <i class="fab fa-apple"></i>
   <!-- Footer -->
 
   <footer id="footer">
