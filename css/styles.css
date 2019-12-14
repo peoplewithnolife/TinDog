@@ -40,11 +40,23 @@ h2 {
    height: auto;
    width: 60%;
    transform: rotate(25deg);
+   position:absolute;
+   right: 30%;
 }
 
-.container-fluid {
-  padding: 3% 15% 3% 15%;
+@media (max-width:1028px) {
+  .phone-img {
+    position:static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
 }
+.container-fluid {
+  padding: 3% 15% 7% 15%;
+}
+
 #title {
   background-color: #FF4C68;
   color: white;
@@ -55,6 +67,9 @@ h2 {
 
 #features {
   padding: 7% 15% 7% 15%;
+  background-color: #FFF;
+  position:relative;
+  z-index: 1;
 }
 
 .feature-box {
