@@ -9,6 +9,13 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 .navbar {
   padding-bottom: 4.5rem;
   padding-left: 0;
@@ -72,4 +79,43 @@ h1 {
 
 .feature-p {
   color: #8F8F8F;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press */
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2% 3% 2%;
+}
+.card {
 }
