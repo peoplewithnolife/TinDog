@@ -126,11 +126,50 @@ h2 {
 
 /* pricing */
 #pricing {
-  padding: 100px;
+  padding: 100px 100px 25px 100px;
   text-align: center;
 }
 .pricing-column {
   padding: 3% 2% 3% 2%;
 }
 .card {
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 2% 2% 2%;
+  /* margin: 0 10% 0 10%; */
+  text-align: center;
+}
+
+.cta-h3 {
+  color: #ffffff;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 0 20% 0 20%
+}
+.cta-download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  padding: 5% 2% 2% 2%;
+  margin: 0 10% 0 10%;
+  text-align: center;
+}
+.footer-icon {
+  color: #11999E;
+  margin: 0 1% 0 1%;
+}
+.footer-icon:hover {
+  color: #EAF6F6;
+}
+.copyright {
+  font-family: "Montserrat-Light", sans-serif;
+  /* color: #EAF6F6; */
+  color: gray;
 }
